@@ -1,0 +1,38 @@
+.header {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #facc15; /* Yellow */
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #facc15;
+}
+
+.search {
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-left: auto;
+}
