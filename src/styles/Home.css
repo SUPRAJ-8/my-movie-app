@@ -1,0 +1,22 @@
+.home {
+  padding-top: 2rem;
+}
+
+.featured-section {
+  margin-bottom: 3rem;
+}
+
+.category-section {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding-top: 1rem;
+  }
+  
+  .featured-section,
+  .category-section {
+    margin-bottom: 2rem;
+  }
+} 
